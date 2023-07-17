@@ -1,0 +1,11 @@
+.full_name{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.full_name div{
+    display: flex;
+    flex-direction: column;
+}
+

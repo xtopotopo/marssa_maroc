@@ -1,0 +1,153 @@
+body{
+    transition: .5s;
+    padding-bottom: 4rem;
+} 
+ 
+table {
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 6rem;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    left: 50%;
+    transform: translateX(-50%);
+    justify-self: center; 
+    align-self: center; 
+    overflow: hidden;
+  }
+  
+  thead {
+    background-color: #009879;
+    color: #ffffff;
+  }
+  
+  th, td {
+    padding: 1rem 12px;
+    text-align: center;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  tbody tr:hover {
+    color: #009879;
+  }
+  
+  tr input {
+    border-radius: 7px;
+    padding: .4rem;
+    border: 1px solid silver;
+    width: fit-content;
+    max-width: 10rem;
+  }
+
+    
+.ajt_btn
+
+{
+    position: relative;
+    height: 3rem;
+    width: 10rem;
+    visibility: visible;
+    font-weight: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+button{
+    position: relative;
+    border-radius: 7px;
+    border: none;
+    padding: .5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: .2rem 0;
+    font-size: 1rem;
+    transition: .3s;
+    color: white;
+    justify-self: center;
+    align-self: center;
+    transition: .3s;
+}
+
+
+.anl_btn{
+    background-color: red;
+    border: 2px solid red;
+    padding: .7rem;
+    margin: 0 1rem;
+}
+
+
+
+.anl_btn:hover{
+    background-color: white;
+    color: red;
+    transition: .4s;
+}
+
+.cfm_btn{
+    position: relative;
+    border-radius: 7px;
+    border: none;
+    padding: .7rem;
+    margin: 0 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    transition: .3s;
+    background-color: rgb(74, 248, 112);
+    border: 2px solid rgb(74, 248, 112);
+    color: white;
+    justify-self: center;
+    align-self: center;
+    
+    
+}
+
+
+
+.cfm_btn:hover{
+    color: rgb(74, 248, 112);
+    background-color:white;
+    border: 2px solid rgb(74, 248, 112);
+    transition: .3s;
+}
+
+
+
+
+.btn_div{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1em;
+}
+
+
+.navire_forme{
+    display: none;
+}
+
+.Navire_input:focus{
+    border: 2px solid #009879;
+
+}
+
+
+
+
+ 

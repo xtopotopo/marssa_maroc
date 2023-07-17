@@ -1,0 +1,107 @@
+
+
+body{
+    padding-bottom:  4rem ;
+}
+
+
+.div_acc_cvr{
+    margin: -.6rem;
+    overflow: hidden;
+    
+}
+.accl_cover{
+   
+   
+    height:60vh;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+   
+   
+    transition: transform 0.3s ease; /* Ajoutez une transition à la propriété "transform" avec une durée de 0,3 seconde et une courbe d'accélération "ease" */
+}
+.accl_cover.large {
+    transform: scale(1.2); /* Lorsque la classe "large" est ajoutée, l'image sera mise à l'échelle à 120% de sa taille d'origine */
+}
+
+
+h2{
+    text-transform: uppercase;
+    display: flex;
+    justify-self: start;
+    margin: 2rem 0 1rem 3rem;
+    font-family: 'Caveat', cursive;
+ }
+
+ .accl_cover.large {
+    transform: scale(1.2); /* Lorsque la classe "large" est ajoutée, l'image sera mise à l'échelle à 120% de sa taille d'origine */
+    transition: transform 0.3s ease; /* Ajoutez une transition à la propriété "transform" avec une durée de 0,3 seconde et une courbe d'accélération "ease" */
+  }
+  /* Styles pour la section du héros */
+.hero {
+  
+    
+    text-align: center;
+  }
+  
+.hero-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+  
+h3{
+    color:brown;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  table {
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 3rem;
+    font-size: 0.9em;
+    font-family: sans-serif;
+   
+    width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    left: 50%;
+    transform: translateX(-50%);
+    justify-self: center; 
+    align-self: center; 
+    overflow: hidden;
+  }
+  
+  thead {
+    background-color: #980000;
+    color: #ffffff;
+  }
+  
+  th, td {
+    padding: 1rem 12px;
+    text-align: center;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+
+  
+ 
+  
+  tr input {
+    border-radius: 7px;
+    padding: .4rem;
+    border: 1px solid silver;
+    width: fit-content;
+    max-width: 10rem;
+  }
+  
+

@@ -1,0 +1,180 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body {
+    padding-left: 215px; 
+    
+}
+
+i{
+    color: rgb(57, 57, 57);
+   
+}
+
+
+
+.logo{
+    position: relative;
+    justify-self: center;
+    bottom: 5rem;
+    margin-left:1.6rem ;
+}
+
+.logo img{
+    width: 8rem;
+    object-fit: cover;
+}
+.navbar {
+    background-color: rgb(51, 51, 51);
+    width: fit-content;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    position:fixed; 
+    top: 0;
+    left: 0;
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid black;
+    box-shadow: 3px 0px 1rem  silver;
+    border-radius: 0 15px 15px 0 ;
+}
+
+.navbar button{
+    border: none;
+    appearance: none;
+    visibility:hidden;
+}
+
+#open_butt,#closebutt{
+    visibility: hidden;
+    display: none;
+    appearance: none;
+
+}
+
+.ele_cont{
+    font-size: 1.4rem;
+    color: rgb(156, 11, 11);
+    position: relative;
+    bottom: 6rem;
+    font-weight:500 ;
+    text-align: center;
+}
+
+.nav_ele{
+    padding: .8rem 3rem;
+    border-bottom: 1.5px silver solid;
+    overflow: hidden;
+   
+}
+
+.nav_ele:last-child{
+    border: none;
+}
+
+a{
+    color: #ffffff;
+}
+
+.nav_ele i{
+    color: white;
+}
+
+.nav_ele:hover {
+    background-image: linear-gradient(to top left, rgba(110, 110, 110, 0.63), rgba(78, 78, 78, 0.827));
+   
+    transition: .4s;
+}
+
+.active {
+    background-image: linear-gradient(to top left, rgba(110, 110, 110, 0.63), rgba(78, 78, 78, 0.827));
+}
+
+.deco_div{
+    
+    background-color: rgb(183, 53, 53);
+    color: white;
+    padding: .8rem 1.9rem;
+    border-top: 1.5px silver solid;
+    font-size: 1.4rem;
+    font-weight: 700;  
+    transition: .3ss; 
+}
+
+.deco_div:hover{
+    background-color: rgb(185, 20, 20);
+    transition: .3s;
+}
+
+
+/*mobile screen*/
+@media screen and (max-width: 600px)
+{
+
+    body {
+        padding: 2.8rem 0 0 0; 
+        margin: 0 1rem; 
+
+    }
+    button{
+        border: none;
+        appearance: none;
+        visibility:hidden;
+    }
+    .logo{
+        top:5rem;
+
+    }
+    .navbar {
+        background-color:  rgba(0, 0, 0, 0.696);;
+        backdrop-filter: blur(3px);
+        position: fixed;
+        width: fit-content;
+        height: 100%;
+        width: 100vh;
+        justify-content: center;
+        align-items: center;
+        LEFT: 100%;
+        transition: .8s;
+        display: block;
+    }
+    
+    .ele_cont{
+        position: relative;
+        top: 0;
+        margin-top: 10rem;
+
+    }
+    
+    button{
+        border: none;
+        appearance: none;
+        visibility:visible;
+        position: absolute;
+    }
+    
+    
+    
+    
+    #close_butt{
+        display: none;
+        position: absolute;
+    }
+    
+    #open_butt{
+        display: block;
+    }
+    .test{
+        max-width: 300px;
+    }    
+    
+   
+}

@@ -1,0 +1,232 @@
+
+  
+  body {
+
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    transition: .4s;
+    max-width: fit-content;
+    min-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: gainsboro;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    
+    color: #222;
+  }
+  
+ 
+  
+  .table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-section th,
+  .table-section td {
+    padding: 8px;
+    text-align: left;
+
+  }
+  
+  .table-section th:last-child,
+  .table-section td:last-child {
+    text-align: center;
+  }
+  
+  .delete-link {
+    color: #ff4d4d;
+    text-decoration: none;
+  }
+  
+  .delete-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style spécifique pour le tableau de bord futuriste */
+  .container {
+    border-radius: 10px;
+  }
+
+  input {
+    font-size: .7rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid white;
+  
+  }
+  
+  input:focus{
+      border: 2px solid #222;
+  }
+  
+.submit,.anl_btn{
+    font-size:.7rem ;
+}
+  
+  .employee-section,
+  .admin-section,
+  .table-section {
+    padding: 20px;
+  }
+  
+  .employee-section {
+    transition: .4s ;
+
+
+  }
+  
+
+  
+  .admin-section input[type="text"],
+  .admin-section input[type="email"],
+  .admin-section input[type="password"] {
+    width: 95%;
+  }
+  
+  .admin-section input[type="password"] {
+    letter-spacing: 2px;
+  }
+  
+  .table-section h2 {
+    margin-top: 20px;
+  }
+  
+  .table-section th,
+  .table-section td {
+    text-transform: uppercase;
+  }
+  
+  .table-section th {
+    font-weight: bold;
+  }
+  
+
+  .ajt_btn {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 7px;
+    border: none;
+    padding: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    transition: .3s;
+    background-color: rgb(73, 156, 244);
+    border: 2px solid rgb(73, 156, 244);
+    color: white;
+    margin-top: .3rem;
+}
+
+  .ajt_btn:hover{
+    color: rgb(73, 156, 244);
+    background-color:white;
+    border: 2px solid rgb(73, 156, 244);
+    transition: .3s;
+}
+ 
+  
+.spr_btn{
+    background-color: red;
+    border: 2px solid red; 
+    transition: .3s;
+    border: 2px solid red;
+   
+}
+
+
+
+.spr_btn:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    transition: .3s;
+}
+
+
+.button_div{
+  display: flex;
+  justify-content: center;
+  margin-top:3rem ;
+}
+.btn{
+  padding:1rem;
+  font-family: 'Noto Sans', sans-serif;
+  border:none ;
+  color: white;
+  font-weight: 400;
+  font-size: .9rem;
+  margin: .1rem;
+  transition: .3s;
+}
+
+
+
+.employee-section{
+transition: 1s;
+
+}
+
+.employe_btn{
+
+  border-radius: 13px 0px 0px 0;
+  background: linear-gradient(to top left,rgb(167, 135, 247),rgb(133, 87, 247));
+}
+
+.admin_btn{
+  border-radius:0px 0 13px 0px;
+  background: linear-gradient(to bottom right,rgb(167, 135, 247),rgb(118, 68, 247));
+
+}
+
+.employe_btn:hover{
+  background: linear-gradient(to bottom right,rgb(167, 135, 247),rgb(133, 87, 247));
+  transition: .5;
+}
+
+.admin_btn:hover{
+  background: linear-gradient(to  top left,rgb(167, 135, 247),rgb(133, 87, 247));
+  transition: .4s ;
+}
+
+
+.admin-section{
+  display: none;  
+  transition: .4s ;
+  border: 2px solid white;
+border-radius: 10px;
+margin: .2rem;
+justify-content: center;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background-color: #222;
+  margin: 1.5rem 0;
+
+}
